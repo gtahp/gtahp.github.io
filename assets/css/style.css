@@ -51,7 +51,7 @@ margin-bottom: 20px;
 html, body { height: 100%; }
 
 body {
-	font:16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 16px/1 "Droid Serif",serif, sans-serif;
 	color: #666;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
@@ -187,8 +187,11 @@ li	{ list-style-type:circle; list-style-position:inside; }
 
 /* Line Height */
 #post-body, p { 
-	font-family: 'Montserrat', sans;
-	line-height:1.8; }
+	color: #484848;
+	font-family: "Droid Serif", serif;
+	line-height:1.8; 
+	font-size: 19px;
+}
 
 b, strong { font-weight: 500;
   color: #1E2025; }
@@ -232,7 +235,7 @@ em, i { font-style: italic; }
 .post h1 {
 	margin-bottom:2 0px;
 	color: #222;
-	font: 400 48px/1.4em 'Montserrat', sans-serif;
+	font: 400 48px/1.4em "Droid Serif",serif;
 	/*font: 300 48px/1.4em "Helvetica Neue", Helvetica,Arial,sans-serif;*/
 }
 
@@ -242,10 +245,16 @@ em, i { font-style: italic; }
 	  color: #111;
 }
 
+.post h2.snip {
+	font: normal 23px/1.5em "Droid Serif",serif;
+	color: #b2b9be;
+	text-align: right;
+
+}
 
 .post h2.headline {
 	/*font: italic 22px/1.3em Georgia,serif;*/
-	font: normal 17px/1.5em 'Montserrat', sans;
+	font: normal 17px/1.5em "Droid Serif",serif;
 	/*font: normal 13px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;*/
 	margin: -5px 0 40px 0;
 	color: #b2b9be;
@@ -406,7 +415,7 @@ Post List
 #post-list .dates {
 	float: right;
 	position: relative;
-	top: 18px;
+	top: 13px;
 	font: 300 20px/1.8 "Helvetica Neue",helvetica,Arial,sans-serif;
 	color: #bbb;
 }

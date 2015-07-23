@@ -8,13 +8,14 @@ archive: true
     <header>
         <h1>{{ page.title }}</h1>
         <h2 class="headline">{{ page.date | date_to_string}}</h2>
-        <h2>{{ post.description }}</h2>
+        <h2 class="snip"><span>—</span>{{ page.snip }}</h2>
 
     </header>
     <section id="post-body">
         {{content}}
     </section>
 </article>
+<hr/>
 
 <!-- Disqus comments -->
 {% if page.disqus %}
