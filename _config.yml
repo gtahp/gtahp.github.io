@@ -1,6 +1,5 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: GTλs Blog
+description: My personal blog
 
 aboutPage: true
 
@@ -9,19 +8,15 @@ highlighter: pygments
 
 paginate: 40
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
-google_analytics: 'UA-XXXXXXXX-X'
-disqus_shortname: 'your-disqus-shortname'
+disqus_shortname: 'gtalolita'
 
 # Details for the RSS feed generator
 url:            'http://your-blog-url.example.com'
-author:         'Your Name'
-authorTwitter:  'YourTwitterUsername'
-
+author:         'Handrés Povidaiko'
+authorTwitter:  'gtalolita'
 permalink:       pretty
 
 exclude: ["LICENSE", "README.md"]
-
 
 defaults:
     -
