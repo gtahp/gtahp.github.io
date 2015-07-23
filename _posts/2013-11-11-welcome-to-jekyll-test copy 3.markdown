@@ -1,5 +1,5 @@
 ---
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Jekyll! The lazy brow cat runs over the dog"
 date:   2013-11-10 10:18:00
 description: Thriller Comedy Horror
 ---

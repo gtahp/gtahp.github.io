@@ -186,7 +186,9 @@ ul 	{ margin:0; padding:0; }
 li	{ list-style-type:circle; list-style-position:inside; }
 
 /* Line Height */
-#post-body, p { line-height:2.7; }
+#post-body, p { 
+	font-family: 'Montserrat', sans;
+	line-height:1.8; }
 
 b, strong { font-weight: 500;
   color: #1E2025; }
@@ -230,7 +232,8 @@ em, i { font-style: italic; }
 .post h1 {
 	margin-bottom:2 0px;
 	color: #222;
-	font: 300 32px/1.4em "Helvetica Neue", Helvetica,Arial,sans-serif;
+	font: 400 48px/1.4em 'Montserrat', sans-serif;
+	/*font: 300 48px/1.4em "Helvetica Neue", Helvetica,Arial,sans-serif;*/
 }
 
 .post h2 {
@@ -242,14 +245,16 @@ em, i { font-style: italic; }
 
 .post h2.headline {
 	/*font: italic 22px/1.3em Georgia,serif;*/
-	font: normal 13px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font: normal 17px/1.5em 'Montserrat', sans;
+	/*font: normal 13px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;*/
 	margin: -5px 0 40px 0;
 	color: #b2b9be;
-	  font-size: 13px;
+	  font-size: 17px;
 	  text-transform: uppercase;
 	  letter-spacing: 2px;
 	  /*margin-top: 15px;*/
 	  display: inline-block;
+
 }
 
 #post-list h2 {
@@ -401,8 +406,8 @@ Post List
 #post-list .dates {
 	float: right;
 	position: relative;
-	top: 1px;
-	font: 300 23px/1.8 "Helvetica Neue",helvetica,Arial,sans-serif;
+	top: 18px;
+	font: 300 20px/1.8 "Helvetica Neue",helvetica,Arial,sans-serif;
 	color: #bbb;
 }
 
@@ -642,7 +647,7 @@ h2.month {
 
 	#post-list-footer { margin-top: 20px; padding-top: 40px; }
 
-	h1 { font-size: 26px; }
+	h1 { font-size: 60px; }
 	.post h2.headline { font-size: 13px; }
 	.post h1 { font-size:24px; }
 	.post h2 { font-size:20px; }
