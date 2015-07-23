@@ -1,35 +1,48 @@
 ---
 layout: default
+disqus: true
+archive: true
 ---
-<header class="page-heading">
-  <h2 class="page-title">{{ page.title }}</h2>
-  <p class="meta published-date">Published {{ page.date | date_to_long_string }}</p>
-  <h3 class="page-snip">{{ page.snip }}</h3>
-</header>
 
-<div id="post">
-  {{ content }}
+<article class="post">
+    <header>
+        <h1>{{ page.title }}</h1>
+        <h2 class="headline">{{ page.date | date:"%B %-d, %Y" }}</h2>
+    </header>
+    <section id="post-body">
+        {{content}}
+    </section>
+</article>
+<footer id="post-meta" class="clearfix">
+    <a href="http://twitter.com/{{ site.authorTwitter }}">
+        <img class="avatar" src="/assets/images/avatar.png">
+        <div>
+            <span class="dark">{{ site.author }}</span>
+            <span>{{ site.description }}</span>
+        </div>
+    </a>
 
-	<div id="disqus_thread"></div>
-	<script type="text/javascript">
-		var disqus_identifier = "{{ page.title }}_"
-		  , disqus_url        = 'http://killdream.github.com/{{ page.url }}';
+</footer>
 
-		void function() {
-			var dsq = document.createElement('script')
-			dsq.type  = 'text/javascript'
-			dsq.async = true
-			dsq.src	  = 'http://quildreen.disqus.com/embed.js';
-			(document.getElementsByTagName('head')[0]
-			 || document.getElementsByTagName('body')[0]).appendChild(dsq)
-		}()
-	</script>
+<!-- Disqus comments -->
+{% if page.disqus %}
+    <div class="archive readmore">
+        <h3>Comments</h3>
+        {% include disqus.html %}
+    </div>
+{% endif %}
 
-	<noscript>
-    Please enable JavaScript to view
-    the <a href="http://disqus.com/?ref_noscript">comments powered by
-    Disqus.</a>
-  </noscript>
-	<a href="http://disqus.com" class="dsq-brlink">blog comments powered by
-	<span class="logo-disqus">Disqus</span></a>  
-</div>
+<!-- Archive post list -->
+{% if page.archive %}
+    <ul id="post-list" class="archive readmore">
+        <h3>Read more</h3>
+        {% for post in site.posts %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}<aside class="dates">{{ post.date | date:"%b %d" }}</aside></a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endif %}
+
+
+
