@@ -1,1 +1,0 @@
-# GTλs personal blog
