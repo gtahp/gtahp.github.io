@@ -1,0 +1,33 @@
+name: GTλs Blog
+description: My personal blog
+
+aboutPage: true
+
+markdown: kramdown
+highlighter: pygments
+
+paginate: 40
+baseurl: /
+disqus_shortname: ''
+
+# Details for the RSS feed generator
+url:            ''
+author:         'Handrés Povidaiko'
+authorTwitter:  'gta_hp'
+permalink:       pretty
+
+exclude: ["LICENSE", "README.md"]
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post

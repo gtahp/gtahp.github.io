@@ -1,0 +1,44 @@
+---
+layout: default
+disqus: false
+archive: true
+---
+
+<article class="post">
+    <header>
+        <h1>{{ page.title }}</h1>
+        <h2 class="headline">{{ page.date | date_to_string}}</h2>
+        <h2 class="snip"><span>—</span>{{ page.description }}</h2>
+
+    </header>
+    <section id="post-body">
+        {{content}}
+    </section>
+</article>
+<!-- <hr/> -->
+
+<!-- Disqus comments -->
+<!-- {% if page.disqus %}
+    <div class="archive readmore">
+        <h3>Comments</h3>
+        {% include disqus.html %}
+    </div>
+{% endif %} -->
+
+<!-- Archive post list -->
+
+{% include footer.html %}
+
+<!-- {% if page.archive %}
+    <ul id="post-list" class="archive readmore">
+        <h3>Read more</h3>
+        {% for post in site.posts %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}<aside class="dates">{{ post.date | date:"%b %d" }}</aside></a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endif %} -->
+
+
+
