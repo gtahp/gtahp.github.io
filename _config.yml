@@ -14,9 +14,11 @@ disqus_shortname: ''
 url:            ''
 author:         'Handrés Povidaiko'
 authorTwitter:  'gta_hp'
-permalink:       pretty
+permalink:       none
 
 exclude: ["LICENSE", "README.md"]
+
+gems: [jekyll-paginate]
 
 defaults:
     -
