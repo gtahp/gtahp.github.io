@@ -4,7 +4,7 @@ description: My personal blog
 aboutPage: true
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 paginate: 40
 baseurl: /
