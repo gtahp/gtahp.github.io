@@ -48,11 +48,12 @@ img {
 }
 
 .social-ul {
-	display: inline-block;
+	display: inline-flex;
 }
 
 .social-li {
 	display: -moz-grid-line;
+	list-style-type: none;
 }
 
 .social-font {
