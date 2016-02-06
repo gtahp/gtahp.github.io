@@ -47,10 +47,16 @@ img {
   vertical-align: bottom;
 }
 
+.social-ul {
+	display: inline-block;
+}
+
+.social-li {
+	display: -moz-grid-line;
+}
+
 .social-font {
-  width: 75%;
-  position: relative;
-  float: right;
+	text-align: center;
   }
 
 .social-font a {

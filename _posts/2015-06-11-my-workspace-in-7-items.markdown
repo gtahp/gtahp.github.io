@@ -54,7 +54,7 @@ This is Vim + Emacs, what else would I need?
 Best. Combination. Ever.
 
 It's way too well integrated with OS X, besides, it's just beautiful. The colours, the syntax highlight, I can know if a command is on my Path by simple typing its name, if it becomes green, it's there. 
-![](/assets/images/Terminal.png "Also, look at that style. Such Beauty")
+![](https://gtahp.github.io/assets/images/Terminal.png "Also, look at that style. Such Beauty")
 
 When a command give a way too large output and I want to go back up there, I simply type ⌘ + SHIFT + ↑, and there I am, navigating between commands.
 
