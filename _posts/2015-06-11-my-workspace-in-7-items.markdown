@@ -32,7 +32,7 @@ I also use [VimFX](https://addons.mozilla.org/en-US/firefox/addon/vimfx/), a ver
 
 I'm a huge addict of VNs. They're just the best. I mean, there has been very few games that could begin to entertain me. Most games are just *boring*. However, to sit in a chair for hours straight, doing nothing but reading some text with music while some images change on the background is, *surprisingly*, **not boring**.
 
-![](http://i.imgur.com/SE8a8Rk.png "Playing 10 VNs on eOS with dual-monitor")
+![](http://gtahp.me/assets/images/VNs.jpg "Playing 10 VNs on eOS with dual-monitor")
 
 And I mean it, after playing Muv-Luv for 100+ hours, Fate Stay/Night for 120+ hours, Clannad for i-dont-even-remember-anymore+ hours, I can guarantee its effectiveness in sucking the user in the story. [Here](https://vndb.org/u48551/list?c=all;v=0;t=-1;o=d;s=vote) you can see a list of my most prized VNs.
 
